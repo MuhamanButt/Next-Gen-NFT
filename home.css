@@ -1,0 +1,351 @@
+/*
+6947F6
+BB61F3
+2E3150
+16192A
+
+*/
+
+* {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+body {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*-------------------------------------------------------------------media queries*/
+@media screen and (max-width: 350px) {
+  .brand-row .col-2 {
+    font-size: 3px !important;
+  }
+  .subscribe-input .form-control::placeholder,.subscribe-input button
+{
+  color: white;
+  font-size: 7px !important;
+}
+}
+@media screen and (max-width: 576px) {
+  #createNFT-btn,
+  #getStarted-btn,
+  #login-btn,
+  #signup-btn {
+    font-size: 10px !important;
+  }
+  .about-product
+  {
+    display: none;
+  }
+  .nft-collection-card h6
+  {
+    font-size: 15px !important;
+  }
+  .subscribe h1
+  {
+    font-size: 20px;
+  }
+  .subscribe h6
+  {
+    font-size: 10px;
+  }
+  .blog-card p{
+    font-size: 20px !important;
+  }
+  .blog-card h6
+  {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner,
+  .banner-image {
+    margin-top: 50px;
+  }
+  .banner-image {
+    filter: drop-shadow(0px 0px 20px #bb61f3aa) !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .price-product {
+    text-align: end;
+  }
+  .main-heading {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 875px) {
+  .carousel-item p {
+    font-size: 8px !important;
+  }
+  .footer h6{
+    font-size: 10px;
+  }
+  .footer p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .banner,
+  .banner-image {
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .top-creator-btn
+  {
+    font-size: 10px;
+  }
+  .nft-collection-btn
+  {
+    font-size: 10px;
+  }
+}
+/*-------------------------------------------------------------------generic*/
+.filled-button {
+  background: linear-gradient(#6947f6, #bb61f3);
+  color: white;
+  padding: 5px;
+}
+.border-button {
+  border: 1px solid #bb61f3;
+  color: white;
+}
+.image-round {
+  border-radius: 100%;
+}
+.main-heading {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.fs-10px
+{
+  font-size: 10px;
+}
+/*-------------------------------------------------------------------navbar*/
+
+.navbar-container img {
+  width: 150px;
+  margin-right: 30px;
+}
+.navbar-container {
+  padding: 10px;
+}
+.nav-link,
+.nav-link:active,
+.nav-link:visited {
+  color: white;
+}
+.nav-link:active {
+  font-weight: 800;
+}
+.navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
+/*-------------------------------------------------------------------banner*/
+.banner {
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+.banner img {
+  width: 75%;
+}
+.banner p {
+  margin: 20px 0px;
+  font-weight: 200;
+}
+.banner-image {
+  filter: drop-shadow(0px 0px 35px #bb61f3aa);
+  height: 75%;
+}
+
+/*-------------------------------------------------------------------brands*/
+.list-group-item {
+  background-color: transparent;
+  border: none;
+  color: rgb(218, 218, 218);
+  align-self: center;
+}
+.brand-row .brand img {
+  width: 20px;
+  margin-right: 10px;
+}
+.brand-row .brand {
+  font-size: 10px;
+  margin: 10px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/*-------------------------------------------------------------------collect Nfts*/
+
+.product-des p {
+  font-weight: 700;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+}
+.about-product {
+  background-color: white;
+  border-radius: 20px;
+}
+.carousel-item p {
+  color: black;
+  margin: 0px;
+  font-size: 10px;
+}
+.profile-picture {
+  width: 100% !important;
+}
+.profile .col-2 {
+  margin-right: 5px;
+}
+.profile p {
+  font-weight: 500;
+}
+.buy-it-now-btn {
+  padding: 3px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.about-product {
+  position: relative;
+  bottom: 50px;
+}
+.profile{
+  margin: 5px;
+}
+.carousel-item-image 
+{
+  margin: 0px 5px;
+}
+.carousel-item-image  img{
+  border-radius: 20px;
+}
+/*-------------------------------------------------------------------top creators*/
+.top-creator-card img{
+  width: 50%;
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+.top-creator-card
+{
+  background-color:#16192A ;
+  border: 1px solid #2E3150;
+  border-radius: 20px;
+  margin: 10px 15px;
+  padding: 20px 0px;
+}
+
+
+/*-------------------------------------------------------------------nft collection*/
+.nft-collection-card img{
+  width: 75%;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+.nft-collection-card
+{
+  background-color:#16192A ;
+  border: 1px solid #2E3150;
+  border-radius: 20px;
+  margin: 10px 15px;
+  padding: 20px 0px;
+}
+.nft-collection-card p{
+  margin-top: 10px;
+  font-size: 10px;
+  color: #bb61f3;
+}
+
+ /*-------------------------------------------------------------------subscribe*/
+.subscribe img
+{
+  width: 100%;
+  border-radius: 60% 41% 72% 28% / 58% 73% 27% 41% ;
+  
+}
+.subscribe-input .form-control
+{
+  background-color: #16192A;
+  border: 1px solid #2E3150;
+  border-radius: 10px;
+  color: white;
+}
+.subscribe-input .form-control::placeholder,.subscribe-input button
+{
+  color: rgb(210, 210, 210);
+  font-size: 10px;
+}
+
+  .subscribe h6
+  {
+    font-size: 10px;
+    color: rgb(210, 210, 210);
+  }
+
+   /*-------------------------------------------------------------------blog*/
+   
+   .blog-card img{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .blog-card
+  {
+    background-color:#16192A ;
+    border: 1px solid #2E3150;
+    border-radius: 20px;
+    margin: 10px 15px;
+    padding: 20px;
+  }
+  .blog-card p{
+    margin: 10px 0px 2px 10px;
+    font-size: 10px;
+    color: #bb61f3;
+  }
+  .blog-card h6
+  {
+    margin: 0px 10px;
+    font-size: 10px;
+  }
+
+   /*-------------------------------------------------------------------footer*/
+  .footer img
+  { 
+    width: 100px;
+    margin: 20px 0px;
+  }
+  .footer h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .footer p{
+    margin: 0px;
+    font-weight: 200;
+  }
+  .footer i{
+    font-size: 10px;
+    margin: 5px;
+  }
+   /*-------------------------------------------------------------------copyright*/
+  .copyright
+  {
+    font-size: 10px;
+  }
+
+
+   /*-------------------------------------------------------------------animation*/
+   .animate__animated.animate__zoomIn {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+  }
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 1s;
+  }
