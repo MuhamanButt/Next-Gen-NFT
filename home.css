@@ -6,6 +6,9 @@ BB61F3
 
 */
 
+:root{
+  --purple:#bb61f3;
+}
 * {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -103,12 +106,12 @@ body {
 }
 /*-------------------------------------------------------------------generic*/
 .filled-button {
-  background: linear-gradient(#6947f6, #bb61f3);
+  background: linear-gradient(#6947f6, var(--purple));
   color: white;
   padding: 5px;
 }
 .border-button {
-  border: 1px solid #bb61f3;
+  border: 1px solid var(--purple);
   color: white;
 }
 .image-round {
@@ -261,7 +264,7 @@ body {
 .nft-collection-card p{
   margin-top: 10px;
   font-size: 10px;
-  color: #bb61f3;
+  color: var(--purple);
 }
 
  /*-------------------------------------------------------------------subscribe*/
@@ -307,7 +310,7 @@ body {
   .blog-card p{
     margin: 10px 0px 2px 10px;
     font-size: 10px;
-    color: #bb61f3;
+    color: var(--purple);
   }
   .blog-card h6
   {
